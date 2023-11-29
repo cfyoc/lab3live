@@ -1,0 +1,88 @@
+header {
+    font-family: Futura, Trebuchet MS;
+    font-weight: bold condensed;
+    color: coral;
+    background-color: mistyrose;
+
+    font-size: 25px;
+    /* My additions */
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: lightgray;
+}
+
+h1 {
+    color: coral;
+    filter: drop-shadow(10px 10px 10px black);
+    text-decoration: underline;
+
+    text-align: center;
+    padding-top: 25px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    font-weight: bold;
+
+    padding-left: 42%;
+    margin-right: 100px;
+}
+
+#content {
+    padding: 3px;
+}
+
+#WPI {
+    /*center the image*/
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main_nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#main_nav ul li {
+    background-color: #fff;
+    border: 1px solid #999;
+    color: #222;
+    display: block;
+    margin-bottom: -1px;
+    padding: 12px 10px;
+}
+
+#main_nav ul li a {
+    text-decoration: none;
+}
+
+/* add traditional rounded corners to the navigation menu*/
+
+#main_nav li:first-child {
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+
+#main_nav li:last-child {
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+
+nav li:active {
+    background-color: #ccc;
+    background-image: none;
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+}

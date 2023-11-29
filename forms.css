@@ -1,0 +1,64 @@
+label {
+    display: block;
+}
+
+input {
+    font-size: 16px;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    height: 1.5rem;
+    border: solid;
+    border-color: darkslategray;
+}
+
+form {
+    border-color: black;
+    padding: 2rem;
+    border: solid;
+}
+
+input:required {
+    /* insert your own style to indicate a required form input */
+    border-color: coral;
+}
+
+input:invalid {
+    /* insert your own styles for invalid form input */
+    border-color: red;
+}
+
+input:valid {
+    /* insert your own styles for valid form input */
+    border-color: green;
+}
+
+
+
+div {
+    font-size: 1.25rem;
+    padding: 0.7rem;
+}
+
+.error {
+    background-color: LightYellow;
+    color: DarkRed;
+    width: 160px;
+    padding: 10px;
+    border: 1px solid gray;
+    position: absolute;
+    left: 17rem;
+    box-shadow: 3px 3px 3px #999999;
+    border-radius: 7px;
+    font-size: 0.9rem;
+}
+
+input[type='submit'] {
+
+    /* Add more rules here */
+    font-size: 16px;
+    width: 5rem;
+    height: 2rem;
+    margin: 1rem;
+
+    border-image: url("blueButton.png") 0 14 0 14 stretch;
+}
